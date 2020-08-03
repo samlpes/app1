@@ -22,12 +22,17 @@ def define(word):
             message = "The word {} does not exist! Please retype it"
             return(message.format(word))
 
+#Inputting your word here
 word = input("Enter your word: ")
+
+
 #error message in case word does not exist
 out = define(word)
 if type(out) == list:
+    #loop for printing list items seperately
     for item in out:
         print(item)
 else:
+    #Printing error messages in one line
     print(out)
 
