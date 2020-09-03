@@ -3,7 +3,7 @@
 
  Application #1
 
- This is simple dictionary application which coded while learnign python
+ This is a simple dictionary application which I made while learning python
 
- I downloaded JSON file with definitions and simly created search engine.
+ I downloaded JSON file with definitions and simly created search engine that connects to JSON dictionary and pulls data.
  
